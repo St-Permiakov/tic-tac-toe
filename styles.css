@@ -16,11 +16,12 @@ body
   margin: 0;
   font-family: sans-serif;
   background-color: var(--backgroundColor);
+  color: var(--mainColor);
 }
 
 main
 {
-  margin: 100px 0;
+  margin: 30px 0;
 }
 
 header,
@@ -152,4 +153,21 @@ header
 .restartButton:hover
 {
   opacity: 1;
+}
+
+.copyright
+{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.copyright a
+{
+  color: var(--mainColor);
+}
+
+.copyright i
+{
+  font-size: 12px;
 }
